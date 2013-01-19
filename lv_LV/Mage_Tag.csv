@@ -87,7 +87,7 @@
 "The tag has been deleted.", "Birka ir dzēsts."
 "There are no tags available.", "Neviena birka nav pieejama."
 "Unable to find any products tagged with '%s' in the current store", "Nevar atrast nevienu produktu birku ar '% s', pašreizējā veikalā"
-"Unable to remove tag. Please", "Nevar noņemt birku. Lūdzu"
+"Unable to remove tag. Please, try again later.", "Nevar noņemt birku. Lūdzu, pamēģini vēlāk."
 "Unable to save tag(s).", "Nevar saglabāt birku (s)."
 "Update", "Update"
 "Update product tag", "Atjaunināt produkta birku"
