@@ -1,7 +1,7 @@
 {* This is a comment block
 
 Use vars: {{var var_name}}
-*}<!--@subject Payment Transaction Failed Reminder @-->
+*}<!--@subject Neveiksmīgas Maksājuma Transakcijas Atgādinātājs @-->
 <!--@vars
 {"var reason":"Transaction Failed Reason",
 "var checkoutType":"Checkout Type",
@@ -19,50 +19,50 @@ Use vars: {{var var_name}}
 <table>
     <thead>
         <tr>
-            <th>Payment transaction failed.</th>
+            <th>Maksājuma transakcija bija neveiksmīga.</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>
                 <p>
-                    <b>Reason</b><br />
+                    <b>Iemesls</b><br />
                     {{var reason}}
                 </p>
                 <p>
-                    <b>Checkout Type</b><br />
+                    <b>Apmaksas Veids</b><br />
                     {{var checkoutType}}
                 </p>
                 <p>
-                    <b>Customer:</b><br />
+                    <b>Klients:</b><br />
                     <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
                 </p>
                 <p>
-                    <b>Items</b><br />
+                    <b>Produkti</b><br />
                     {{var items}}
                 </p>
                 <p>
-                    <b>Total:</b><br />
+                    <b>Kopā:</b><br />
                     {{var total}}
                 </p>
                 <p>
-                    <b>Billing Address:</b><br />
+                    <b>Rēķina Adrese:</b><br />
                     {{var billingAddress.format('html')}}
                 </p>
                 <p>
-                    <b>Shipping Address:</b><br />
+                    <b>Piegādes Adrese:</b><br />
                     {{var shippingAddress.format('html')}}
                 </p>
                 <p>
-                    <b>Shipping Method:</b><br />
+                    <b>Piegādes Metode:</b><br />
                     {{var shippingMethod}}
                 </p>
                 <p>
-                    <b>Payment Method:</b><br />
+                    <b>Apmaksas Metode:</b><br />
                     {{var paymentMethod}}
                 </p>
                 <p>
-                    <b>Date & Time:</b><br />
+                    <b>Datums & Laiks:</b><br />
                     {{var dateAndTime}}
                 </p>
             </td>
